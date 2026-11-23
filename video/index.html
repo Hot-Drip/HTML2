@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- : John-Finn: Kavanagh.  -->
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Comedy Video
+    </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: left;
+            padding: 20px;
+            font-size: 4.5rem;
+
+        }
+
+        p {
+            text-align: left;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+
+        }
+
+        .color-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.0);
+            z-index: -1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="video-section">
+        <h1>Comedy Video</h1>
+        <p>Welcome to the Comedy Video page!</p>
+        <video autoplay loop muted>
+            <source src="OO_DZ_Donkey.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="color-overlay">
+        </div>
+    </section>
+
+
+</body>
+
+</html>

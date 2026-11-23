@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8ddfd3;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+.homepage {
+    float: right;
+}
+
+nav a {
+    display: block;
+    color: #51355A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #b8eee5;
+
+}
+
+nav a.active {
+    background-color: #37bfaf;
+    color: white
+}
+
+body {
+    background-color: #fff6b3;
+    color: #51355A;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+#home {
+    background-color: darkgray;
+}
+
+.rounded {
+    border-radius: 2em;
+}
+
+footer {
+    padding: 1em;
+    margin-top: 1.5em;
+    font-size: smaller;
+    background-color: #8ddfd3;
+}
+
+h1 {
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color:
+        rgb(140, 158, 246);
+    text-transform: uppercase;
+    -webkit-text-stroke: black 1px;
+}
+
+h2 {
+    color: rgb(179, 111, 242);
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+p {
+    padding-bottom: 0.5em;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
